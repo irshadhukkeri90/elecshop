@@ -1,0 +1,34 @@
+<section style="background-color: #eee">
+  <div class="container py-4">
+    <div class="row mb-3 px-2">
+      <!-- <div class="checkout"> -->
+      <div class="col-md-9 col-xl-9">
+        <div class="checkout_left">
+          <div
+            class="checkout_empty mt-5"
+            *ngIf="shopping_cart.getCartLength() == 0"
+          >
+            <h2>Your shopping basket is empty</h2>
+            <p>You have no items in your basket</p>
+          </div>
+          <div
+            class="checkout_not_empty"
+            *ngIf="shopping_cart.getCartLength() != 0"
+          >
+            <h2><strong>Shopping Cart</strong></h2>
+            <app-checkout-product
+              [checkout_products]="items"
+              (deleteEvent)="deleteEventHandler($event)"
+            ></app-checkout-product>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-xl-3">
+        <div class="checkout_right py-4">
+          <app-checkout-subtotal></app-checkout-subtotal>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</section>

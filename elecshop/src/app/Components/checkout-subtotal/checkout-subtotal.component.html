@@ -1,0 +1,14 @@
+<div class="subtotal py-4" *ngIf="shoppingCart.getCartLength() > 0">
+  <p>
+    Subtotal: ({{ shoppingCart.getCartLength() }} items)
+    <strong>${{ shoppingCart.getTotal() }}</strong>
+  </p>
+  <button
+    class="btn btn-outline-success btn-sm mt-2"
+    type="button"
+    routerLink="/payment"
+    *ngIf="shoppingCart.getCartLength() != 0"
+  >
+    Proceed to checkout
+  </button>
+</div>

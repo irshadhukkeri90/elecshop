@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Refridgerator",
+    "desc": "Microsoft Xbox One X 1Tb Console With Wireless Controller: Xbox One X Enhanced, Hdr, Native 4K, Ultra Hd",
+    "price": 450.0,
+    "image": "../../assets/images/refridgerator.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 2,
+    "title": "Washing Machine",
+    "desc": "PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle",
+    "price": 488.0,
+    "image": "../../assets/images/washin.png",
+    "ratings": 5
+  },
+  {
+    "id": 3,
+    "title": "Mixer",
+    "desc": "Pro Angular 9: Build Powerful and Dynamic Web Apps 4th ed. Edition",
+    "price": 28.88,
+    "image": "../../assets/images/grinder.jpg",
+    "ratings": 3
+  },
+  {
+    "id": 4,
+    "title": "Grinder",
+    "desc": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
+    "price": 53.0,
+    "image": "../../assets/images/mixer.jpg",
+    "ratings": 5
+  },
+  {
+    "id": 5,
+    "title": "Smart Phone",
+    "desc": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound (Pack of 1)",
+    "price": 54.36,
+    "image": "../../assets/images/smartphone.jpg",
+    "ratings": 2
+  },
+  {
+    "id": 6,
+    "title": "Smart Watch",
+    "desc": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
+    "price": 53.0,
+    "image": "../../assets/images/smartwatch.jpeg",
+    "ratings": 5
+  },
+  {
+    "id": 7,
+    "title": "Smart TV",
+    "desc": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
+    "price": 53.0,
+    "image": "../../assets/images/smartTV.jpeg",
+    "ratings": 5
+  }
+]
